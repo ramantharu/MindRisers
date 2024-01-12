@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+  </head>
+
+  <body>
+
+    <h1>Contact Us</h1>
+
+    <form action="mailto:ramantharu04@gmail.com?suubject=HI" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>Your Information</legend>
+        <p>
+          <label for="email">Email:-</label>
+          <input type="email" name="email" placeholder="provide your email" id="email">
+        </p>
+
+        <p>
+          <label for="username">Username:-</label>
+          <input type="text" name="username" id="username">
+        </p>
+
+
+
+        <p>
+        <h4>Select Your Gender</h4>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        </p>
+
+        <p>
+        <h4>Select Your Habits</h4>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" value="dance" name="habits">
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" value="sing" name="habits">
+        </p>
+
+
+        <p>
+          <label for="date">Join date
+          </label>
+          <input type="date" name="date" id="date">
+        </p>
+
+        <p>
+          <label for="country">Select Country: -</label>
+
+          <select name="country" id="">
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="coffee">Select Fav Coffee: -</label>
+
+          <select name="country" id="">
+            <optgroup label="Strong Coffee">
+              <option value="expresso">Expresso</option>
+              <option value="mochiyato">Mochiyato</option>
+            </optgroup>
+            <optgroup label="Light Coffee">
+              <option value="latte">Latte</option>
+              <option value="americano">Americano</option>
+            </optgroup>
+
+
+
+          </select>
+        </p>
+
+        <p>
+          <label for="msg">
+            <h3>
+              Type message
+            </h3>
+          </label>
+          <textarea name="msg" id="" cols="30" rows="10"></textarea>
+        </p>
+
+
+
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+
+
+      </fieldset>
+
+    </form>
+
+
+
+  </body>
+
+</html>
